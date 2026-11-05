@@ -2,6 +2,8 @@
 
 Fork of [rohanrhu/MacsyZones](https://github.com/rohanrhu/MacsyZones) (GPL-3.0), kept at github.com/ppikkuaho/MacsyZones for our own changes. Branch `pietari` = tag `v3.1.1` plus our commits (`git log v3.1.1..pietari`). The first: the app no longer downloads and installs updates when it starts (upstream has no off switch, issue #91). Remotes: `origin` is the fork, `upstream` is rohanrhu. No pull requests or comments upstream without Pietari's approval.
 
+Our changes so far: no update on launch, and no "buy Pro" popup (upstream shows one every few snaps; Pietari asked for it off, 2026-11-05).
+
 ## Build and install
 
 ```
@@ -19,7 +21,7 @@ The same signing team keeps the Accessibility grant across rebuilds. The "Check 
 
 ## Settings
 
-`~/Library/Application Support/MeowingCat.MacsyZones/AppSettings.json` (layouts in `UserLayouts.json` beside it; edit only while the app is quit). Starting values (2026-11-05): snap key Control, modifier key None, and these off: shake to snap, snap with right click, layout switcher, Quick Snapper shortcut, window cycling shortcuts (upstream's Command+[ and Command+] would take over those keys in every app).
+`~/Library/Application Support/MeowingCat.MacsyZones/AppSettings.json` (layouts in `UserLayouts.json` beside it; edit only while the app is quit). Starting values (2026-11-05): snap key Shift (Control-drag left the window in place in 17 of 18 scripted drags, 2026-11-05), modifier key None, and these off: shake to snap, snap with right click, layout switcher, Quick Snapper shortcut, window cycling shortcuts (upstream's Command+[ and Command+] would take over those keys in every app).
 
 ## Update deliberately
 
