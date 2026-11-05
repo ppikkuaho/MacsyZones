@@ -1,6 +1,6 @@
 # Pietari's MacsyZones build
 
-Local clone of [rohanrhu/MacsyZones](https://github.com/rohanrhu/MacsyZones) (GPL-3.0). Branch `pietari` = tag `v3.1.1` plus one change: the app no longer downloads and installs updates when it starts (upstream has no off switch, issue #91). No fork on GitHub; nothing is pushed.
+Fork of [rohanrhu/MacsyZones](https://github.com/rohanrhu/MacsyZones) (GPL-3.0), kept at github.com/ppikkuaho/MacsyZones for our own changes. Branch `pietari` = tag `v3.1.1` plus our commits (`git log v3.1.1..pietari`). The first: the app no longer downloads and installs updates when it starts (upstream has no off switch, issue #91). Remotes: `origin` is the fork, `upstream` is rohanrhu. No pull requests or comments upstream without Pietari's approval.
 
 ## Build and install
 
@@ -23,4 +23,4 @@ The same signing team keeps the Accessibility grant across rebuilds. The "Check 
 
 ## Update deliberately
 
-`git fetch origin --tags`, `git rebase --onto <new-tag> v3.1.1 pietari`, build and install as above, update this file.
+`git fetch upstream --tags`, `git rebase --onto <new-tag> v3.1.1 pietari`, build and install as above, update this file, `git push --force-with-lease origin pietari`.
