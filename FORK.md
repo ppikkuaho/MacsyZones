@@ -19,7 +19,7 @@ The same signing team keeps the Accessibility grant across rebuilds. The "Check 
 
 ## Settings
 
-`~/Library/Application Support/MacsyZones/AppSettings.json`. Starting values (2026-11-05): snap key Control, modifier key None, and these off: shake to snap, snap with right click, layout switcher, Quick Snapper shortcut, window cycling shortcuts (upstream's Command+[ and Command+] would take over those keys in every app).
+`~/Library/Application Support/MeowingCat.MacsyZones/AppSettings.json` (layouts in `UserLayouts.json` beside it; edit only while the app is quit). Starting values (2026-11-05): snap key Control, modifier key None, and these off: shake to snap, snap with right click, layout switcher, Quick Snapper shortcut, window cycling shortcuts (upstream's Command+[ and Command+] would take over those keys in every app).
 
 ## Update deliberately
 
