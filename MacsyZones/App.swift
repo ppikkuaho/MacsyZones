@@ -439,7 +439,6 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSPopoverDelegate, Sen
                 }
             }
             
-            appUpdater.checkForUpdates()
         }
     }
     
